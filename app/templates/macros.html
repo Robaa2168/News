@@ -12,11 +12,7 @@
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
   }
 </style>
-
-
-
-  
-    <div class="col-md-4 mt-3">
+<div class="col-md-4 mt-3">
       <div class="card default-color-dark  z-depth-6 mt-1">
         <div class="view" >
           <div class="card mb-2">
@@ -36,12 +32,8 @@
   </div>
   
       {% endfor %} {% endmacro %} {% macro displayArticleList(articles_list) %} {% for article in articles_list %}
-
-
-
-
   
-  <div class="col-md-4 mt-2">
+<div class="col-md-4 mt-2">
 <div class="card">
 
   <!-- Card image -->
@@ -55,20 +47,13 @@
 
   <!-- Card content -->
   <div class="card-body">
-
     <!-- Title -->
     <h4 class="badge badge-success" style="font-size: 15px;">{{article.name}}</h4>
-    
-
     <p class="card-text">{{article.description}}</p>
     <p class="card-text">id :{{article.name}}</p>
     <p class="card-text"> Author :{{article.author}}</p>
     <p class="card-text"> <strong> Published on : {{article.publishedAt}}</strong></p>
-    <form action = "/setcookie" method = "POST">
-     <button class="btn btn-danger" name = '{{article.url}}'> save offline</button>
-   </form>
- 
-
+     <a class="btn btn-info" href = '{{article.url}}'> Read more</a>
   </div>
 </div>
 </div>
