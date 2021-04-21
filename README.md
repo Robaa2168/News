@@ -9,16 +9,16 @@
 > [ROBERT_ KIPKOECH](https://kivazm.herokuapp.com/)
 
 > ## Description
-> News is a web application that displays a list of various news sources. On choosing a news source, it will preview the top news articles of the day. Clicking a news article > will redirect the user to read it fully from the news source. It achieves this by using the News API.
+> News is a web application that displays a list of various news sources. On choosing a news source, it will preview the top news articles of the day. Clicking a news article > > will redirect the user to read it fully from the news source. It achieves this by using the News API.
 
-## User Stories
-As a user I would like:
-* to see various news sources and select the ones I prefer
-* to see all the news articles from that news source
-* to see the image, description and time the news article was created.
-* to click on an article and read it fully from the news source.
+> ## User Stories
+> * As a user I would like:
+> * to see various news sources and select the ones I prefer
+> * to see all the news articles from that news source
+> * to see the image, description and time the news article was created.
+> * to click on an article and read it fully from the news source.
 
-## Specifications
+> ## Specifications
 | Behavior        | Input           | Outcome  |
 | ------------- |:-------------:| -----:|
 | Display News sources | N/A | List of various News sources is displayed |
@@ -26,8 +26,8 @@ As a user I would like:
 | Display image, description, title and date of publish | N/A | An articles image, title, description and date of publication are displayed |
 | Read an entire article | **Click** on an article | Directed to the source's site to read the entire article |
 
-## Prerequisites
-* Python3.9
+> ## Prerequisites
+> * Python3.9
 
 ## How to use 
 * Click (https://newske.herokuapp.com/) <br/>
