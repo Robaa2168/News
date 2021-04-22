@@ -29,15 +29,15 @@
 > ## Prerequisites
 > * Python3.9
 
-## How to use 
-* Click (https://newske.herokuapp.com/) <br/>
+> ## How to use 
+> * Click (https://newske.herokuapp.com/) <br/>
   
-* Click any News source you'd like
+> * Click any News source you'd like
 
 
-## Setup/Installation 
-* git clone https://github.com/Robaa2168/News.git
-* $ cd News
+> ## Setup/Installation 
+> * git clone https://github.com/Robaa2168/News.git
+> * $ cd News
 * $ python -m venv virtual (install virtual environment)
 * $ source virtual/bin/activate
 * $ python -m pip install -r requirements.txt (install all dependencies)
