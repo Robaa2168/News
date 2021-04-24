@@ -38,9 +38,9 @@
 > ## Setup/Installation 
 > * git clone https://github.com/Robaa2168/News.git
 > * $ cd News
-* $ python -m venv virtual (install virtual environment)
-* $ source virtual/bin/activate
-* $ python -m pip install -r requirements.txt (install all dependencies)
+> * $ python -m venv virtual (install virtual environment)
+> * $ source virtual/bin/activate
+> * $ python -m pip install -r requirements.txt (install all dependencies)
 * Inside the manage.py module change the config_name parameter from 'production' to 'development' ie app = create_app('production') should be app = create_app('development')
 * $ ./start.sh
 
