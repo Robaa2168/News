@@ -49,13 +49,13 @@ Email  me at [robertlagat38@gmail.com]
 
 ## Known Bugs
 
-No known bugs
+> No known bugs
 
 ## Technologies Used
-- Python3.9
-- Flask framework
-- Bootstrap
+> - Python3.9
+> - Flask framework
+> - Bootstrap
 
 ## License
-* *MIT License:*
-* Copyright (c) 2020 **ROBERT KIPKOECH**
+> * *MIT License:*
+> * Copyright (c) 2020 **ROBERT KIPKOECH**
